@@ -2,6 +2,7 @@ package streams;
 
 
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import static streams._Stream.Gender.*;
@@ -30,6 +31,17 @@ public class _Stream {
         people.stream().map(person -> person.name)
                 .mapToInt(String::length)
                 .forEach(System.out::println);
+
+        //allMatch retorna true únicamente si todos los valores dentro del stream son iguales
+        //anyMatch retorna true si existe al menos un elemento dentro del stream que cumpla la condición indicada
+        // noneMatch retorna true si ningún elemento del stream coincide con el predicado proporcionado
+        // o si el flujo está vacío; de lo contrario, es falso.
+
+        Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender);
+
+        boolean containsOnlyFemale = people.stream().anyMatch(personPredicate);
+        System.out.println(containsOnlyFemale);
+
 
 
     }
