@@ -5,8 +5,6 @@ R
 "src/main/java/imperative/Main.java,1\4\148fe0cb6321acb930382cd9d885f2a970487887
 `
 0src/main/java/functionalinterface/_Supplier.java,9\f\9f590e0998eb9c2282127efb1afa36f2854ec165
-Q
-!src/main/java/optionals/Main.java,f\f\ff5fe6c3fab453a5f96c33f0917db7639fdc0dc0
 `
 0src/main/java/functionalinterface/_Consumer.java,6\8\68408e040638f8a060e33d67870a350b21a3f780
 a
