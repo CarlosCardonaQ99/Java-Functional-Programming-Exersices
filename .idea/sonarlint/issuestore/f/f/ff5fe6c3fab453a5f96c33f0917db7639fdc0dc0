@@ -1,0 +1,6 @@
+
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(êÚÕ†ùÿÿÿÿ
+B
+java:S1602
+",Remove useless curly braces around statement(÷¼¼Ä
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Š¶¡Ä
